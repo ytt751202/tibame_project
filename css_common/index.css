@@ -1,127 +1,152 @@
-
-
 *{
   box-sizing: border-box;
-  border:1px solid black;
 }
 
 body{
   font-family: "Montserrat","Noto Sans TC","Calibri light";
-  background-image: url(images\02.1st\index.jpg);
+  background-image: url("../images/02.1st/index.jpg");
+  background-size:contain;
+  background-repeat: no-repeat;
+
 }
 
-a.logo_img{
-  display:inline-block;
-  vertical-align: middle;
-  cursor: pointer;
+
+header.top_row{
+  position: fixed;
+  width:100%;
+  top:0px;
+
 }
 
-header.header{
-  width:1200px;
+div.links{
+  height: 50px;
+  background-color: #ffffffcc;
+}
+
+
+div.links li{
+  list-style: none;
+  display: inline-block;
+  padding:10px;
+}
+
+
+div.links a{
+  width: 100px;
+  color:#616161;
+  text-decoration: none;
+}
+
+ul.links_icons img{
+  width:28px;
+
+}
+
+div.links_icons li{
+  list-style: none;
+  display: inline-block;
+  padding:0px;
+}
+
+
+div.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin:auto;
 }
 
-nav.nav{
-  display: inline-block;
-  vertical-align: bottom;
+ul.links_item{
+  width:500px;
+  flex:none;
 }
 
-ul.nav_item{
-  list-style: none;
-  margin-right: 10px;
-
+ul.links_icons{
+  display: flex;
 }
 
-ul.nav_item > *{
-  display: inline-block;
-  font-size: 20px;
-  opacity: 60%;
-  margin-left: 0px;
-  margin-right: 8px;
-  margin-bottom: 0px;
-  vertical-align:text-bottom;
 
-
-  /* position: absolute; */
+div.logo {
+  width:100%;
+  text-align: center;
+  background-color: #ffffffcc;
 }
 
-/* div.big_banner{
-  background-image: url(images\02.1st\index.jpg);
-  } */
+main.promo{
+  margin-top: 200px;
+  text-align: center;
+}
 
-
-P.KeepItGreen{
+main.promo p1{
+  color:#ffffff;
   font-size: 60px;
-  color: #ffffff;
-  position: relative;
-  border-color: yellow;
-  top: -410px;
-  right: -90px;
-
+  text-shadow: 2px .8px .5px;
 }
 
-P.Supporting{
-  font-size: 35px;
-  color: #ffffff;
-  position: absolute;
-  border-color:red;
-  top: 460px;
-  right: 315.2px;
+main.promo p2{
+  color:#ffffff;
+  font-size: 30px;
 }
 
-div.slogan img#WinSales{
-  position: absolute;
-  top: 570px;
-  left: 430px;
+main.promo p{
+  color:#ffffff;
+  font-size: 70px;
 }
 
+ul.special{
+  list-style: none;
+}
 
-div.slogan img#shopNow{
-  position: absolute;
-  bottom: 190px;
-  right: 30px;
+input[type="button" i]{
+  color:#ffffff;
+  background-color: #37b37f;
+  font-size: 30px;
+  border-radius: 10px;
+  padding:15px;
+  cursor: pointer;
+  border:0;
   border-style: none;
 }
-div.slogan img#off30 {
-  position: absolute;
-  bottom: 120px;
-  left: 362px;
 
+main.guarantee{
+  width: 100%;
+  height:690px;
+  background-color:#efbd78eb;
+  display: flex;
+  justify-content: center;
 }
 
-nav.nav ul.nav_item{
-  display: inline-block;
-  margin-right: 5px;
-
+div.guarantee {
+  width:900px;
+  text-align: center;
+  color:#ffffff;
+  margin:0px;
 }
 
-nav.nav ul.nav_pics{
-  display: inline-block;
-}
-
-nav.nav ul.nav_pics img{
-  width:30px;
-  height:30px;
-  vertical-align:text-bottom;
-}
-
-nav.nav ul.nav_pics li{
-  list-style: none;
-  display: inline;
+div.guarantee p{
+  font-size: 40px;
 }
 
 
-
-ul.nav_item li a{
-  text-decoration: none;
-  color:#737373;
-  vertical-align: baseline;
+div.guarantee p1{
+  width:790px;
+  font-size: 20px;
+  color:#c8ece9;
 }
 
+
+div.guarantee img{
+  margin-top: 50px;
+}
+
+div.img_block_1st_board{
+  /* border:1px solid red;
+  background-color: #ffffff;
+  z-index: -1; */
+}
 
 div.img_block_1st_board img{
-  width:295px;
-  height:200px;
+  width:586px;
   margin: auto;
 }
 
@@ -147,54 +172,84 @@ div.img_block_1st_board span{
   left:0px;
 }
 
-div.bestsell_title{
-  font-size: 45px;
-  color:#737373;
-  text-align: center;
+div.top_img{
+  border: 1px solid pink;
+  width:100%;
+  height:300px;
+  background-image: url("../images/aboutus/aboutus_header.jpg");
+  overflow: hidden;
+  background-size: 100%;
 
 }
 
-
-tr.bestsell_pics img{
-  width:282px;
-  height:349px;
+div.top_img p.p1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+  color:#000000;
 }
 
-.main_body1 {
-  position: relative;
-  max-width: 1200px;
-  margin: auto;
+div.top_img p.p2 {
+  font-size: 30px;
+  color:#000000;
+  margin-top: 0px;
 }
 
-table.bestsell_all{
-  text-align: center;
+div.main{
+  border:1px solid red;
+  width:1000px;
+  margin-top: 20px;
+  margin:auto;
+}
 
+div.main::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+div.main img{
+  width:200px;
+  float:left;
 }
 
 
+div.p{
+  width:700px;
+  font-size: 25px;
+  margin-left: 150px;
 
+}
 
-/* 最大寬度767px下的參考做法 (作業2 在螢幕寬度767下 要調整的範圍)
+div.p1{
+  width:700px;
+  font-size: 25px;
+  margin-left: 150px;
 
-@media screen and (max-width: 767px){
-  div.main_content{
-    width: 100%;
-  }
-   header.header{
-    width: 100%;
-  }
-    aside.aside{
-    display:block;
-    width:100%;
-    margin-bottom:10px;
-  }
-  main.main{
-    display:block;
-    width:100%;
-  }
-    footer.footer{
-    display:block;
-    width:100%;
-  }
+}
 
-} */
+div.p2{
+  width:700px;
+  font-size: 25px;
+  margin-left: 150px;
+}
+
+ul.aboutus input#btn{
+  margin-left: 110px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color: #37b37f;
+  font-size: 18px;
+  border-radius: 10px;
+  padding:10px;
+  cursor: pointer;
+  border:0;
+  border-style: none;
+}
+
+ul.aboutus{
+  list-style: none;
+}
+
+section.aboutus{
+  background-color: #f0f8ff;
+}

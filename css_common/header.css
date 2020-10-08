@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Montserrat","Noto Sans TC","Calibri light";
+  background-image: url("../images/02.1st/index.jpg");
+  background-size:contain;
+  background-repeat: no-repeat;
+
+}header.top_row{
+  position: fixed;
+  width:100%;
+  top:0px;
+
+}
+
+div.links{
+  height: 50px;
+  background-color: #ffffffcc;
+}
+
+
+div.links li{
+  list-style: none;
+  display: inline-block;
+  padding:10px;
+}
+
+
+div.links a{
+  width: 100px;
+  color:#616161;
+  text-decoration: none;
+}
+
+ul.links_icons img{
+  width:28px;
+
+}
+
+div.links_icons li{
+  list-style: none;
+  display: inline-block;
+  padding:0px;
+}
+
+
+div.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+}
+
+ul.links_item{
+  width:500px;
+  flex:none;
+}
+
+ul.links_icons{
+  display: flex;
+}
+
+
+div.logo {
+  width:100%;
+  text-align: center;
+  background-color: #ffffffcc;
+}

@@ -1,5 +1,5 @@
 *{
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 body{
@@ -13,7 +13,7 @@ header.header_camping{
   margin-bottom: 10px;
 }
 div.header_pic{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   flex:1;
   min-width: 0;
 }
@@ -23,7 +23,7 @@ div.header_pic img{
 }
 
 div.info_camping{
-  border: 1px solid green ;
+  /* border: 1px solid green ; */
   padding: 30px;
   width:400px;
   background-color: #737373;
@@ -78,7 +78,7 @@ main.container div.item{
 .item .lower{
 
 }*{
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 body{
@@ -148,4 +148,56 @@ main.container div.item{
 .item .lower span{
   color: #a9a2a1;
   text-decoration: line-through;
+}
+
+footer.container{
+height: 130px;
+/* border:1px solid red; */
+display: flex;
+justify-content: space-around;
+align-items:center;
+background-color: #e5e7a6c9;
+}
+
+footer.container img{
+width: 230px;
+}
+
+div.footer{
+  display: flex;
+  /* border:1px solid green; */
+  margin-right: 30px;
+}
+
+div.footer_right{
+  width:600px;
+  /* border:1px solid blue; */
+}
+
+ul.footer_right{
+  width:500px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+ul.footer_right li a{
+  /* border:1px solid red; */
+  display: flex;
+  flex:1;
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+div.icons img{
+  /* border: 1px solid pink;   */
+  width:40px;
+}
+
+div.icons a{
+  text-decoration: none;
 }
