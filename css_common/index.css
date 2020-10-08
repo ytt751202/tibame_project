@@ -1,0 +1,200 @@
+
+
+*{
+  box-sizing: border-box;
+  border:1px solid black;
+}
+
+body{
+  font-family: "Montserrat","Noto Sans TC","Calibri light";
+  background-image: url(images\02.1st\index.jpg);
+}
+
+a.logo_img{
+  display:inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+header.header{
+  width:1200px;
+  margin:auto;
+}
+
+nav.nav{
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+ul.nav_item{
+  list-style: none;
+  margin-right: 10px;
+
+}
+
+ul.nav_item > *{
+  display: inline-block;
+  font-size: 20px;
+  opacity: 60%;
+  margin-left: 0px;
+  margin-right: 8px;
+  margin-bottom: 0px;
+  vertical-align:text-bottom;
+
+
+  /* position: absolute; */
+}
+
+/* div.big_banner{
+  background-image: url(images\02.1st\index.jpg);
+  } */
+
+
+P.KeepItGreen{
+  font-size: 60px;
+  color: #ffffff;
+  position: relative;
+  border-color: yellow;
+  top: -410px;
+  right: -90px;
+
+}
+
+P.Supporting{
+  font-size: 35px;
+  color: #ffffff;
+  position: absolute;
+  border-color:red;
+  top: 460px;
+  right: 315.2px;
+}
+
+div.slogan img#WinSales{
+  position: absolute;
+  top: 570px;
+  left: 430px;
+}
+
+
+div.slogan img#shopNow{
+  position: absolute;
+  bottom: 190px;
+  right: 30px;
+  border-style: none;
+}
+div.slogan img#off30 {
+  position: absolute;
+  bottom: 120px;
+  left: 362px;
+
+}
+
+nav.nav ul.nav_item{
+  display: inline-block;
+  margin-right: 5px;
+
+}
+
+nav.nav ul.nav_pics{
+  display: inline-block;
+}
+
+nav.nav ul.nav_pics img{
+  width:30px;
+  height:30px;
+  vertical-align:text-bottom;
+}
+
+nav.nav ul.nav_pics li{
+  list-style: none;
+  display: inline;
+}
+
+
+
+ul.nav_item li a{
+  text-decoration: none;
+  color:#737373;
+  vertical-align: baseline;
+}
+
+
+div.img_block_1st_board img{
+  width:295px;
+  height:200px;
+  margin: auto;
+}
+
+
+div.img_block_1st_board{
+  text-align: center;
+}
+
+div.img_block_1st_board div{
+  display:inline-block;
+  margin: auto;
+  position: relative;
+  z-index: -1;
+}
+
+div.img_block_1st_board span{
+  padding:0px;
+  margin:0px;
+  font-size: 40px;
+  color:#f4f4f4;
+  text-shadow: 1px 3px 10px black;
+  position: absolute;
+  left:0px;
+}
+
+div.bestsell_title{
+  font-size: 45px;
+  color:#737373;
+  text-align: center;
+
+}
+
+
+tr.bestsell_pics img{
+  width:282px;
+  height:349px;
+}
+
+.main_body1 {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+
+table.bestsell_all{
+  text-align: center;
+
+}
+
+
+
+
+/* 最大寬度767px下的參考做法 (作業2 在螢幕寬度767下 要調整的範圍)
+
+@media screen and (max-width: 767px){
+  div.main_content{
+    width: 100%;
+  }
+   header.header{
+    width: 100%;
+  }
+    aside.aside{
+    display:block;
+    width:100%;
+    margin-bottom:10px;
+  }
+  main.main{
+    display:block;
+    width:100%;
+  }
+    footer.footer{
+    display:block;
+    width:100%;
+  }
+
+} */
