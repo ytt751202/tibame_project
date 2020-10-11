@@ -1,78 +1,227 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <link rel="icon" href="images\logo_webtitle.png">
-  <title> SpaceUP | Boarden Your Future</title>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="images\logo_webtitle.png">
+    <title> Shop Now | SpaceUP | Boarden Your Future</title>
 
-  <style media="screen">
-  @import "./css_common/index.css";
-  @import "./css_common/footer.css";
-  /* @import "./css_common/header.css"; */
-  </style>
-</head>
-
-
-  <body>
+    <style media="screen">
+      @import "./css_common/header.css";
+      @import "./css_common/footer.css";
+      @import "./css_common/shopNow.css";
+    </style>
   </head>
 
   <body>
+
     <header class="top_row">
       <div class="links">
-        <ul class="links_item">
-          <li><a href="./index.html">Camping</a></li>
-          <li><a href="./contact.html">Cycling</a></li>
-          <li><a href="./contact.html">Yogaing</a></li>
-          <li><a href="./contact.html">Hiking</a></li>
-          <li><a href="./contact.html">AboutUs</a></li>
+          <ul class="links_item">
+          <li><a href="camping.html">Camping</a></li>
+          <li><a href="#">Cycling</a></li>
+          <li><a href="#">Yogaing</a></li>
+          <li><a href="#">Hiking</a></li>
+          <li><a href="./aboutus.html">AboutUs</a></li>
         </ul>
 
         <ul class="links_icons">
-          <li><a href="./index.html" class="account_img"><img src="images\01.header\account.png"></a></li>
-          <li><a href="./index.html" class="cart_img"><img src="images\01.header\cart.png"></a></li>
+          <li><a href="./login.html" class="account_img"><img src="images\01.header\account.png"></a></li>
+          <li><a href="./shoppingcart.html" class="cart_img"><img src="images\01.header\cart.png"></a></li>
           <li><a href="./index.html" class="search_img"><img src="images\01.header\search.png"></a></li>
         </ul>
       </div>
 
-      <div class="logo">
-        <a href="./index.html" class="logo_img">
-        <img src="images\01.header\logo.png" title=" SpaceUP | Boarden Your Future" alt="SpaceUP LOGO">
-      </a>
-      </div>
     </header>
 
+    <div class="content">
+      <h1>Protecting Our Home</h1>
+      <p>Supporting SupaceUp store for a eco-friendly life</p>
+    </div>
+
+    <video autoplay muted loop id="myVideo">
+      <source src=".\images\shopNow\videoplayback.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+      <div class="card">
+        <img src=".\images\pg\cata_camping.jpg" alt="">
+        <div class="info">
+          <p>Camping</p>
+          <input type="button" value="View More" onclick="location.href='camping.html'">
+        </div>
+      </div>
+
+      <div class="card">
+        <img src=".\images\pg\cata_cycling.jpg" alt="">
+        <div class="info">
+          <p>Cycling</p>
+          <input type="button" value="View More" onclick="location.href='camping.html'">
+        </div>
+      </div>
+
+      <div class="card">
+        <img src=".\images\pg\cata_hike.jpg" alt="">
+        <div class="info">
+          <p>Hiking</p>
+          <input type="button" value="View More" onclick="location.href='camping.html'">
+        </div>
+      </div>
+
+      <div class="card">
+        <img src=".\images\pg\cata_yoga.jpg" alt="">
+        <div class="info">
+          <p>Yogaing</p>
+          <input type="button" value="View More" onclick="location.href='camping.html'">
+        </div>
+      </div>
+    </div>
+
+  <section class="spotlight">
+    <div class="Acknowledgment">
+      <h1>Our Acknowledgment</h1>
+    </div>
+
+			<div class="flex">
+        <img src=".\images\shopNow\sustainable.png" alt="" />
+				<p><span>Sustainable Packaging</span><br>Sustainable packaging is the development and use of packaging which results in improved sustainability. This involves increased use of life cycle inventory and life cycle assessment to help guide the use of packaging which reduces the environmental impact and ecological footprint</p>
+      </div>
+
+			<div class="flex color1">
+        <img src=".\images\shopNow\eco.png" alt="" />
+				<p><span>Eco-Friendly</span><br>Eco-Friendly is sustainability and marketing terms referring to goods and services, laws, guidelines and policies that claim reduced, minimal, or no harm upon ecosystems or the environment.</p>
+			</div>
+
+			<div class="flex color2">
+        <img src=".\images\shopNow\sustainable.png" alt="" />
+				<p><span>Zero Waste</span><br>Zero Waste is a set of principles focused on waste prevention that encourages the redesign of resource life cycles so that all products are reused. The goal is for no trash to be sent to landfills, incinerators or the ocean. Currently, only 9% of plastic is actually recycled. </p>
+			</div>
+	</section>
+
+  <section class="NewArrivals">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <a target="_blank" href="img_5terre.jpg">
+        <img src=".\images\bestsell\backpacker.jpg" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc">100% Repreve®Polyester Backpacker<br><span>$217.50</span></div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="img_forest.jpg">
+        <img src=".\images\bestsell\cooker.png" alt="Forest" width="600" height="400">
+      </a>
+      <div class="desc">Aluminum Non-stick Camping Cooker<br><span>$79.50</span></div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="img_lights.jpg">
+        <img src=".\images\bestsell\kit.jpg" alt="Northern Lights" width="600" height="400">
+      </a>
+      <div class="desc">Zero Waste Outdoor Kit<br><span>$90.50</span></div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="img_mountains.jpg">
+        <img src=".\images\bestsell\bikelight.jpg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc">Baterry-Fre Bike Light<br><span>$59.50</span></div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="img_5terre.jpg">
+        <img src=".\images\bestsell\backpacker.jpg" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc">100% Repreve®Polyester Backpacker<br><span>$217.50</span></div>
+    </div>
+  </section>
 
 
+    <div class="container">
 
+      <a href=".\images\page-yogaing\dress1.jpg" data-lightbox="homePortfolio">
+        <img src=".\images\page-yogaing\dress1.jpg"/>
+      </a>
 
+      <a href=".\images\page-cycling\battle.jpg" data-lightbox="homePortfolio" class="vertical">
+        <img src=".\images\page-cycling\battle.jpg"/>
+      </a>
 
+      <a href=".\images\page-cycling\banne.jpg" data-lightbox="homePortfolio" class="horizontal">
+        <img src=".\images\page-cycling\banne.jpg"/>
+      </a>
 
+      <a href="https://source.unsplash.com/600x600/?sig=40" data-lightbox="homePortfolio">
+        <img src="https://source.unsplash.com/600x600/?sig=40"/>
+      </a>
 
+      <a href=".\images\page-hiking\boots.jpg" data-lightbox="homePortfolio">
+        <img src=".\images\page-hiking\boots.jpg"/>
+      </a>
 
+      <a href="https://source.unsplash.com/800x800/?sig=7" data-lightbox="homePortfolio" class="big">
+        <img src="https://source.unsplash.com/800x800/?sig=7"/>
+      </a>
 
+      <a href=".\images\page-cycling\banne.jpg" data-lightbox="homePortfolio">
+        <img src=".\images\page-cycling\banne.jpg"/>
+      </a>
 
+      <a href="https://source.unsplash.com/600x800/?sig=94" data-lightbox="homePortfolio" class="vertical">
+        <img src="https://source.unsplash.com/600x800/?sig=94"/>
+      </a>
 
+      <a href=".\images\page-cycling\helmat.jpg" data-lightbox="homePortfolio">
+        <img src=".\images\page-cycling\helmat.jpg"/>
+      </a>
 
+      <a href="https://source.unsplash.com/800x600/?sig=68" data-lightbox="homePortfolio" class="horizontal">
+        <img src="https://source.unsplash.com/800x600/?sig=68"/>
+      </a>
 
+      <a href=".\images\page-cycling\clothes.jpg" data-lightbox="homePortfolio">
+        <img src=".\images\page-cycling\clothes.jpg"/>
+      </a>
 
+      <a href="https://source.unsplash.com/800x800/?sig=55" data-lightbox="homePortfolio" class="big">
+        <img src="https://source.unsplash.com/800x800/?sig=55"/>
+      </a>
 
+      <a href=".\images\page-yogaing\yogaball.jpg" data-lightbox="homePortfolio">
+        <img src=".\images\page-yogaing\yogaball.jpg"/>
+      </a>
 
+      <a href="https://source.unsplash.com/800x600/?sig=186" data-lightbox="homePortfolio" class="horizontal">
+        <img src="https://source.unsplash.com/800x600/?sig=186"/>
+      </a>
 
+      <a href=".\images\page-hiking\multitool.jpg" data-lightbox="homePortfolio">
+        <img src=".\images\page-hiking\multitool.jpg"/>
+      </a>
 
+      <a href="https://source.unsplash.com/800x600/?sig=71" data-lightbox="homePortfolio" class="big">
+        <img src="https://source.unsplash.com/800x600/?sig=71"/>
+      </a>
 
+      </a>
+      <a href=".\images\page-yogaing\yogaball.jpg" data-lightbox="homePortfolio">
+        <img src=".\images\page-yogaing\yogaball.jpg"/>
 
+      <a href=".\images\page-hiking\hydrationBag.jpg" data-lightbox="homePortfolio" class="vertical">
+        <img src=".\images\page-hiking\hydrationBag.jpg"/>
+      </a>
+    </div>
 
-    <!-- <footer class="container">
+    <footer class="container">
       <div class="footer">
-        <img src="images\01.header\logo.png" alt="logo">
+        <a href="index.html"><img src=".\images\01.header\logo.png" alt="logo"></a>
       </div>
       <div class="footer_right">
         <ul class="footer_right">
-          <li><a href="./index.html">Camping</a></li>
+          <li><a href="./camping.html">Camping</a></li>
           <li><a href="./contact.html">Cycling</a></li>
           <li><a href="./contact.html">Yogaing</a></li>
           <li><a href="./contact.html">Hiking</a></li>
-          <li><a href="./contact.html">AboutUs</a></li>
+          <li><a href="./aboutus.html">AboutUs</a></li>
         </ul>
       </div>
 
@@ -87,7 +236,10 @@
         <a href="http://www.whatsapp.com"><img border="0" src="images\footer\WhatsApp.png"</a>
       </div>
 
-    </footer> -->
+    </footer>
+
+
+
 
   </body>
 </html>

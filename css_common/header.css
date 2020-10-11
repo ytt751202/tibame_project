@@ -4,12 +4,12 @@
 
 body{
   font-family: "Montserrat","Noto Sans TC","Calibri light";
-  background-image: url("../images/02.1st/index.jpg");
+  /* background-image: url("../images/02.1st/index.jpg");
   background-size:contain;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 
 }header.top_row{
-  position: fixed;
+  /* position: fixed; */
   width:100%;
   top:0px;
 
